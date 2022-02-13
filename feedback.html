@@ -1,0 +1,72 @@
+<!<!DOCTYPE html>
+<html>
+<head?>
+<meta  name="viewport" Content="width=device-width ,  initial-scale=1.0">
+<title>
+Tribute Page for Nelson Mandela
+</title>
+<link href="index.css" rel="stylesheet">
+<link href="general.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+            <div class="header">
+            <h2>  Feedback Form </h2>
+           </div>
+               <div class="menu">
+             <button class="nav" onclick="document.location='gallery.html'">Gallery</button>
+              <button class="nav" onclick="document.location='bio.html'">Biography</button>
+              <button class="nav" onclick="document.location='index.html'">Home</button>
+              </div>
+            <div class="form-content">
+             <!-- form start -->
+             <form id="form">
+       		 <div class="feed-form">
+       			<label for="name" id="label-name">Name</label>
+       			<!-- Input Type Text -->
+       			<input type="text" id="name" placeholder="Enter your name" />
+       		 </div>
+
+       		<div class="feed-form">
+       			<label for="email" id="label-email">Email</label>
+       			<input type="email" id="email" placeholder="Enter your email" />
+       		</div>
+
+       	  	<div class="feed-form">
+       			<label>	Gender	</label>
+       			<label for="recommed-1">
+       			<input type="radio" id="recommed-1" name="recommed">Male</input>
+       			</label>
+       			<label for="recommed-2">
+       			 <input type="radio"
+       			  id="recommed-2"
+       			  name="recommed">Female</input>
+       			</label>
+       			<label for="recommed-3">
+       			<input type="radio"  id="recommed-3" name="recommed">Other</input>
+       			</label>
+       		</div>
+
+       		<div class="feed-form">
+       			<label for="comment">
+       				Any comments or suggestions
+       			</label>
+
+       			<textarea name="comment" id="comment"
+       				placeholder="Enter your comment here">
+       			</textarea>
+       		</div>
+
+       		<button type="submit" value="submit">
+       			Submit
+       		</button>
+       	</form>
+
+
+             <!-- form end -->
+            </div>
+            <footer id="last-sec">Copyright@Riyaz/John</footer>
+        </div>
+<script src="index.js"></script>
+</body>
+</html>
